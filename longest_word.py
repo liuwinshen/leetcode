@@ -1,5 +1,3 @@
-import pdb
-
 def longest_word(s, d):
     lengths = [(entry, len(entry)) for entry in d]
     sorted_d = sorted(lengths, key = lambda x: (-x[1], x[0]))
